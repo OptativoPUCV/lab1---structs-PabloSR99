@@ -145,3 +145,9 @@ exercises.c:125:19: error: invalid operands to binary + (have ‘Vector’ and �
       |               Vector Vector
 Compilation failed
 62397e8
+Fri 17 Mar 2023 02:59:08 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  7|1
+total_score: 60/70
+d41f105
