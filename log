@@ -8,3 +8,13 @@ Fri 17 Mar 2023 03:21:33 AM UTC:
  tests:  1|6
 total_score: 10/70
 68e240b
+Fri 17 Mar 2023 03:28:47 AM UTC: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+exercises.c: In function ‘crearPersona’:
+exercises.c:53:22: error: expected expression before ‘]’ token
+   53 |   p->nombre = nombre[];
+      |                      ^
+Compilation failed
+fd6129b
