@@ -28,3 +28,14 @@ exercises.c:64:14: error: assignment to expression with array type
       |              ^
 Compilation failed
 afa9561
+Fri 17 Mar 2023 02:28:24 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘arrayMaxMin’:
+exercises.c:32:15: error: ‘i’ may be used uninitialized in this function [-Werror=maybe-uninitialized]
+   32 |       if (*(a + i) > *max)
+      |               ^
+cc1: all warnings being treated as errors
+Compilation failed
+127f657
