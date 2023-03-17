@@ -35,11 +35,11 @@ void arrayMaxMin(int *a, int n, int *max, int *min) {
       
       if (a[i] > maximo || maximo == 0)
       {
-        *max = a[i];
+        maximo = a[i];
       }
       if (a[i] < minimo || minimo == 0)
       {
-        *min = a[i];
+        minimo = a[i];
       }
     }
   *min = minimo;
