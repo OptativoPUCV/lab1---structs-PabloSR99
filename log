@@ -81,3 +81,8 @@ exercises.c:35:12: error: ‘i’ may be used uninitialized in this function [-W
 cc1: all warnings being treated as errors
 Compilation failed
 7bd8d91
+Fri 17 Mar 2023 02:36:39 PM UTC: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ tests:  0|0
+f07c95d
