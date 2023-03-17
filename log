@@ -18,3 +18,13 @@ exercises.c:53:22: error: expected expression before ‘]’ token
       |                      ^
 Compilation failed
 fd6129b
+Fri 17 Mar 2023 02:28:05 PM UTC: 
+ exercises.c | 13 ++++++++++++-
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearPersona’:
+exercises.c:64:14: error: assignment to expression with array type
+   64 |    p->nombre = nombre;
+      |              ^
+Compilation failed
+afa9561
