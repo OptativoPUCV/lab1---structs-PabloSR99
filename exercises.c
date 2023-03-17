@@ -27,22 +27,23 @@ la cual encuentra el máximo y el mínimo valor del arreglo a y los
 almacena en las variables apuntadas por max y min.
 */
 void arrayMaxMin(int *a, int n, int *max, int *min) {
-  *max = a[0];
-  *min = a[0];
+  int minimo = 0;
+  int maximo = 0;
   
   for(int i=1; n - 1; i++)
     {
       
-      if (a[i] > *max)
+      if (a[i] > maximo || maximo == 0)
       {
         *max = a[i];
       }
-      if (a[i] < *min)
+      if (a[i] < minimo || minimo == 0)
       {
         *min = a[i];
       }
     }
-
+  *min = minimo;
+  *max = maximo;
   
     
 }
