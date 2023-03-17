@@ -30,7 +30,7 @@ void arrayMaxMin(int *a, int n, int *max, int *min) {
   *max = a[0];
   *min = a[0];
   
-  for(int i = 1; n - 1; i++)
+  for(int i; n - 1; i++)
     {
       if (a[i] > *max)
       {
