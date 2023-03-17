@@ -39,3 +39,14 @@ exercises.c:32:15: error: ‘i’ may be used uninitialized in this function [-W
 cc1: all warnings being treated as errors
 Compilation failed
 127f657
+Fri 17 Mar 2023 02:32:32 PM UTC: 
+ exercises.c | 3 +++
+ 1 file changed, 3 insertions(+)
+In file included from test.c:5:
+exercises.c: In function ‘arrayMaxMin’:
+exercises.c:35:15: error: ‘i’ may be used uninitialized in this function [-Werror=maybe-uninitialized]
+   35 |       if (*(a + i) > *max)
+      |               ^
+cc1: all warnings being treated as errors
+Compilation failed
+5f94234
